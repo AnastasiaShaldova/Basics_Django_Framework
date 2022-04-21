@@ -266,6 +266,15 @@ html, body {
 	width: 270px;
 	position: relative;
 }
+
+.tab-content .block a img {
+  width: 100%;
+}
+
+.tab-content a .text img {
+  width: auto;
+}
+
 .tab-content a .text {
 	display: none;
 	height: 268px;
@@ -904,6 +913,7 @@ td:first-child {
 	width: 570px;
 	height: 570px;
 }
+
 .slider-control {
 	width: 420px;
 	height: 70px;

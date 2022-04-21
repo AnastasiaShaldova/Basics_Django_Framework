@@ -1,5 +1,7 @@
 from django.shortcuts import render
 
+from mainapp.models import Product
+
 
 def products(request):
     links_menu = [
@@ -11,6 +13,7 @@ def products(request):
     ]
 
     context = {
-        'links_menu': links_menu
+        'links_menu': links_menu,
+        'object': Product.objects.get(id=1)
     }
     return render(request, 'mainapp/products.html', context=context)

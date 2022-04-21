@@ -1036,7 +1036,7 @@ td:first-child {
 	position: relative;
 }
 .related-products .block:nth-child(3n) {
-	margin-right: 0px;
+	margin-right: 0;
 }
 .related-products a .text {
 	display: none;

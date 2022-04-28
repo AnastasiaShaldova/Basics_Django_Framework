@@ -1031,6 +1031,7 @@ td:first-child {
 	margin-bottom: 120px;
 }
 .related-products .block a img {
+	width: 100%;
 	float: left;
 }
 .related-products .block {
@@ -1070,6 +1071,7 @@ td:first-child {
 	margin: 15px 15px;
 }
 .related-products a .text img {
+	width: auto;
 	float: none;
 	margin-top: 80px;
 }

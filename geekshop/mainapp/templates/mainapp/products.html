@@ -8,17 +8,7 @@
     </div>
 
     <div class="details">
-        <div class="links clearfix">
-            <ul class="links-menu">
-                {% for link in links_menu %}
-                    <li><a href="/{{ link.href }}/"
-                           class="{% if request.resolver_match.url_name == link.href %}
-                           active
-                           {% endif %}">{{ link.name }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-
+        {% include 'mainapp/includes/inc_menu.html' %}
         <div class="details-products">
             <div class="details-slider">
                 <div class="slider-product">
@@ -26,17 +16,17 @@
                 </div>
                 <div class="slider-control">
                     <div class="block">
-                        <a href="#"><img src="../../../geekshop/static/geekshop/img/controll.jpg" alt="">
+                        <a href="#"><img src="img/controll.jpg" alt="">
                             <div class="text"></div>
                         </a>
                     </div>
                     <div class="block">
-                        <a href="#"><img src="../../../geekshop/static/geekshop/img/controll1.jpg" alt="">
+                        <a href="#"><img src="img/controll1.jpg" alt="">
                             <div class="text"></div>
                         </a>
                     </div>
                     <div class="block">
-                        <a href="#"><img src="../../../geekshop/static/geekshop/img/controll2.jpg" alt="">
+                        <a href="#"><img src="img/controll2.jpg" alt="">
                             <div class="text"></div>
                         </a>
                     </div>
@@ -53,10 +43,10 @@
                 <div class="description-text">
                     <p>Расположитесь комфортно.</p>
                     <p>Отличное качество материалов
-                    позволит вам это.</p>
+                        позволит вам это.</p>
                     <p>Различные цвета</p>
                     <p>высочайший уровень
-                    эргономики и прочность.</p>
+                        эргономики и прочность.</p>
                 </div>
             </div>
         </div>
@@ -64,37 +54,20 @@
         <div class="related">
             <div class="title clearfix">
                 <h2>Похожие продукты</h2>
-                <a class="explore" href="#">показать все <img src="../../../geekshop/static/geekshop/img/arrow.png" alt=""></a>
+                <a class="explore" href="#">показать все <img src="img/arrow.png" alt=""></a>
             </div>
             <div class="related-products clearfix">
-                <div class="block">
-                    <a href="#"><img src="../../../geekshop/static/geekshop/img/product-11.jpg" alt="">
-                        <div class="text">
-                            <img src="../../../geekshop/static/geekshop/img/icon-hover.png" alt="img">
-                            <h4>Стул повышенного качества</h4>
-                            <p>Не оторваться. </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="block">
-                    <a href="#"><img src="../../../geekshop/static/geekshop/img/product-21.jpg" alt="">
-                        <div class="text">
-                            <img src="../../../geekshop/static/geekshop/img/icon-hover.png" alt="img">
-                            <h4>Стул повышенного качества</h4>
-                            <p>Не оторваться. </p>
-                        </div>
-                    </a>
-                </div>
-                <div class="block">
-                    <a href="#"><img src="../../../geekshop/static/geekshop/img/product-31.jpg" alt="">
-                        <div class="text">
-                            <img src="../../../geekshop/static/geekshop/img/icon-hover.png" alt="img">
-                            <h4>Стул повышенного качества</h4>
-                            <p>Не оторваться. </p>
-                        </div>
-                    </a>
-                </div>
-
+                {% for product in some_products %}
+                    <div class="block">
+                        <a href="#"><img src="/media/{{ product.image }}" alt="">
+                            <div class="text">
+                                <img src="{% static 'geekshop/img/icon-hover.png' %}" alt="img">
+                                <h4>{{ product.name }}</h4>
+                                <p>{{ product.short_desc }}</p>
+                            </div>
+                        </a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>

@@ -5,6 +5,9 @@
 
     <form class="form-horizontall" action="{% url 'auth:login' %}" method="post">
         {% csrf_token %}
+        {% if next %}
+            <input type="hidden" name="next" value="{{ next }}">
+        {% endif %}
         {{ login_form }}
 
         <button type="submit" class="btn btn-primary">Войти</button>
@@ -14,5 +17,4 @@
     <button class="btn btn-round form-control last">
         <a href="{% url 'index' %}" class="">на главную</a>
     </button>
-    <div class="user_avatar"><img src="/media/{{ user.avatar }}"></div>
 {% endblock %}

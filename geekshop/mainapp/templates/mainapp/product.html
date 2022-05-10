@@ -1,6 +1,10 @@
 {% extends 'geekshop/base.html' %}
 {% load static %}
 
+{% block css %}
+    <link rel="stylesheet" type="text/css" href="{% static 'mainapp/style.css' %}">
+{% endblock %}
+
 {% block content %}
 
     <div class="hero-white">
@@ -39,11 +43,11 @@
             <div class="description">
                 <h3 class="big-bold">{{ product.name }}</h3>
                 <p class="price"> {{ product.price }} <span>руб</span></p>
-                <a href="#" class="red-button">
+                <a href="{% url 'basket:add' product.pk %}" class="red-button">
                     заказать <i class="fa fa-chevron-right" aria-hidden="true"></i>
                 </a>
                 <div class="description-text">
-                    {{ product.short_desc }}
+                    {{ short_desc }}
                 </div>
             </div>
 
@@ -58,11 +62,11 @@
                 <div class="related-products clearfix">
                     {% for product in same_products %}
                         <div class="block">
-                            <a href="#"><img src="/media/{{ product.image }}" alt="">
+                            <a href=""><img src="/media/{{ same_product.image }}" alt="">
                                 <div class="text">
                                     <img src="{% static 'geekshop/img/icon-hover.png' %}" alt="img">
                                     <h4>{{ product.name }}</h4>
-                                    <p>{{ product.short_desc }}</p>
+                                    <p>{{ product.description }}</p>
                                 </div>
                             </a>
                         </div>

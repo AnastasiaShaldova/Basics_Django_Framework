@@ -51,8 +51,30 @@
                     </div>
                 </div>
             {% endif %}
-        </div>
 
+            <ul class="pagination">
+                {% if products.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="{% url 'products:page' products.previous_page_number %}">
+                            Назад
+                        </a>
+                    </li>
+                {% endif %}
+                <li class="page-item">
+                    <a class="page-link" href="#">
+                        страница {{ products.number }} из {{ products.paginator.num_pages }}
+                    </a>
+                </li>
+                {% if products.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="{% url 'products:page' products.next_page_number %}">
+                            Вперед
+                        </a>
+                    </li>
+                {% endif %}
+            </ul>
+
+        </div>
 
         <div class="products_list">
             <div class="title clearfix">
@@ -77,6 +99,7 @@
                     </a>
                 </div>
             {% endfor %}
+
         </div>
 
         {% if same_products %}

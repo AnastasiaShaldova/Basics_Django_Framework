@@ -32,7 +32,7 @@
             {% for item in basket_items %}
                 <tr>
                     <th scope="row">{{ forloop.counter }}</th>
-                    <td><img src="/media/{{ item.product.image }}" alt="{{ item.product.short_desc }}"></td>
+                    <td><img src="/media/{{ item.product.image }}" alt="{{ item.product.short_desc }}" style="width: 200px;"></td>
                     <td>{{ item.product.category.name }}</td>
                     <td>{{ item.product.name }}</td>
                     <td>{{ item.product.price }}&nbsp;руб</td>

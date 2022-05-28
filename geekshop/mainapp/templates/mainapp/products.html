@@ -17,7 +17,7 @@
             <div class="details-slider col-5">
 
                 <div class="slider-product">
-                    <img src="/media/{{ hot_product.image }}">
+                    <img src="/media/{{ hot_product.image }}" style="width: 570px;">
                 </div>
 
                 <div class="slider-control">
@@ -80,7 +80,7 @@
         {% for product in products %}
             <div class="block">
                 <a href="{% url 'products:detail' product.pk %}">
-                    <img src="/media/{{ product.image }}" alt="product" style="width: 100%;">
+                    <img src="/media/{{ product.image }}" alt="product" style="width: 370px;">
                     <div class="text">
                         <img src="{% static 'geekshop/img/icon-hover.png' %}" alt="hover">
                         <h4>{{ product.name }}</h4>

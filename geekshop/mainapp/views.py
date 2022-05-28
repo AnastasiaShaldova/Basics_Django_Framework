@@ -2,7 +2,6 @@ import random
 
 from django.shortcuts import render, get_object_or_404
 
-from basketapp.models import Basket
 from mainapp.models import Product, ProductCategory
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -42,7 +41,7 @@ def products(request, pk=None, page=1):
     hot_product = get_hot_product()
     same_product = get_same_products(hot_product)
 
-    paginator = Paginator(products, 2)
+    paginator = Paginator(products, 3)
     try:
         products_paginator = paginator.page(page)
     except PageNotAnInteger:

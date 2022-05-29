@@ -861,11 +861,12 @@ td:first-child {
 	height: 70px;
 	background-color: #f4f4f4;
 	position: relative;
-	padding-left: 360px;
+	padding-left: 230px;
 }
 .links-menu {
 	margin:	27px auto 0px;
 	position: absolute;
+
 }
 .links-menu li {
 	float: left;

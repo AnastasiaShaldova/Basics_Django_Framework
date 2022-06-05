@@ -59,6 +59,7 @@ html, body {
 	color: #212121;
 	font-weight: 700;
 	border-bottom: 3px solid #212121;
+
 }
 .menu a:hover {
 	color: #212121;
@@ -74,20 +75,19 @@ html, body {
 .search {
 	display: block;
 	width: 23px;
-	height: 23px;	
+	height: 23px;
 	background-image: url(img/search.png);
 	position: absolute;
-	top: 62px;
-	left: 1175px;
+	top: 63px;
+	left: 1100px;
 }
 .basket {
 	display: block;
-	width: 24px;
-	height: 24px;
+	height: 23px;
 	background-image: url(img/basket.png);
 	position: absolute;
-	top: 62px;
-	left: 1209px;
+	top: 63px;
+	left: 1130px;
 }
 
 .clearfix:after {
@@ -122,7 +122,7 @@ html, body {
 	font-size: 17px;
 	font-weight: 700;
 	line-height: 45px;
-	margin-top: 32px; 
+	margin-top: 32px;
 	letter-spacing: 3px;
 }
 .button-order:hover {
@@ -192,8 +192,8 @@ html, body {
 }
 
 .featured {
-	padding-left: 98px;
-	padding-right: 98px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 .featured-menu {
 	margin-top: 120px;
@@ -262,14 +262,20 @@ html, body {
 	margin-bottom: 120px;
 }
 .tab-content .block {
-	height: 270px;
-	width: 270px;
+	height: 279px;
+	width: 279px;
 	position: relative;
+}
+.tab-content .block a img {
+  width: 100%;
+}
+.tab-content a .text img {
+  width: auto;
 }
 .tab-content a .text {
 	display: none;
-	height: 268px;
-	width: 268px;
+	height: 280px;
+	width: 280px;
 	background-color: #ffffff;
     opacity: 0.9;
     position: absolute;
@@ -364,7 +370,7 @@ html, body {
 
 .trending-products {
 	margin-top: 53px;
-	
+
 }
 .trending-products .block a img {
 	float: left;
@@ -441,7 +447,7 @@ html, body {
 }
 .exclusive-big {
 	height: 570px;
-	width: 570px;	
+	width: 570px;
 	float: left;
 	background-image: url(img/product-1-lg.jpg);
 }
@@ -543,7 +549,7 @@ html, body {
 
 .footer {
 	height: 384px;
-	width: 1169px;
+	width: 1340px;
 	background-color: #f7f7f7;
 	padding-left: 99px;
 	padding-right: 98px;
@@ -573,7 +579,7 @@ html, body {
 	margin-right: 0;
 }
 .text-footer h3 {
-	text-transform: uppercase; 
+	text-transform: uppercase;
 	color:  #6c6c6c;
 	font-size: 18px;
 	font-weight: 700;
@@ -712,7 +718,7 @@ td:first-child {
 }
 
 .location {
-	padding: 0px 97px;
+	padding: 5%;
 }
 .location-1 {
 	height: 368px;
@@ -762,8 +768,8 @@ td:first-child {
 .tab-control li {
 	float: left;
 	border-bottom: 1px solid #6c6c6c;
-	padding-bottom: 19px;	
-} 
+	padding-bottom: 19px;
+}
 .tab-control a {
 	color: #6c6c6c;
 	font-size: 18px;
@@ -855,11 +861,12 @@ td:first-child {
 	height: 70px;
 	background-color: #f4f4f4;
 	position: relative;
-	padding-left: 360px;
+	padding-left: 230px;
 }
 .links-menu {
-	margin:	27px auto 0px;	
+	margin:	27px auto 0px;
 	position: absolute;
+
 }
 .links-menu li {
 	float: left;
@@ -890,10 +897,9 @@ td:first-child {
 }
 
 .details-products {
-	padding-left: 98px;
-	padding-right: 98px;
+	padding: 5%;
 	margin-top: 98px;
-	height: 651px; 
+	height: 651px;
 }
 .details-slider {
 	width: 570px;
@@ -924,7 +930,7 @@ td:first-child {
 	background-color: #fff;
     opacity: 0.7;
     position: absolute;
-    top: 0;    
+    top: 0;
 }
 .slider-control a:hover .text {
 	display: block;
@@ -936,7 +942,7 @@ td:first-child {
 	padding-left: 35px
 }
 .description .big-bold {
-	/*text-transform: capitalize;*/
+	text-transform: capitalize;
 	color:  #212121;
 	font-size: 36px;
 	font-weight: 700;
@@ -1009,10 +1015,10 @@ td:first-child {
 }
 
 .related {
-	padding: 0px 98px;
+	padding: 5%;
 }
 .related .title {
-	height: 343px;
+	height: 350px;
 	margin-right: 0;
 }
 .related .title h2 {
@@ -1022,7 +1028,7 @@ td:first-child {
 	margin-top: 262px;
 }
 .related-products {
-	margin-bottom: 120px;
+	margin-bottom: 5%;
 }
 .related-products .block a img {
 	float: left;
@@ -1064,6 +1070,7 @@ td:first-child {
 	margin: 15px 15px;
 }
 .related-products a .text img {
+	width: auto;
 	float: none;
 	margin-top: 80px;
 }

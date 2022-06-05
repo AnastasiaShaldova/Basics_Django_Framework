@@ -1,0 +1,56 @@
+[
+  {
+      "category": "Стул",
+      "name": "Удобный стул",
+      "image": "products_images/promo-img2.jpg",
+      "short_desc": "Стильный дизайн",
+      "description": "",
+      "price": "12300.00",
+      "quantity": 4
+  },
+  {
+      "category": "Стул",
+      "name": "Легкий стул",
+      "image": "products_images/product-21.jpg",
+      "short_desc": "Классический стиль",
+      "description": "",
+      "price": "11450.00",
+      "quantity": 7
+  },
+  {
+      "category": "Лампа",
+      "name": "Лампа-Сфера",
+      "image": "products_images/product-1.jpg",
+      "short_desc": "Минимализм",
+      "description": "",
+      "price": "12000.00",
+      "quantity": 13
+  },
+  {
+      "category": "Лампа",
+      "name": "Настольная лампа",
+      "image": "products_images/product-31.jpg",
+      "short_desc": "Консерватизм",
+      "description": "",
+      "price": "17000.00",
+      "quantity": 3
+  },
+  {
+      "category": "Диван",
+      "name": "Мягкий диван",
+      "image": "products_images/product-3-sm.jpg",
+      "short_desc": "Конструктивизм",
+      "description": "",
+      "price": "56000.00",
+      "quantity": 40
+  },
+  {
+      "category": "Часы",
+      "name": "Часы механические",
+      "image": "products_images/product-4-sm.jpg",
+      "short_desc": "Минимализм",
+      "description": "",
+      "price": "10000.00",
+      "quantity": 7
+  }
+]

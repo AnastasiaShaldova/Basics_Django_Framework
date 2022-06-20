@@ -1,16 +1,36 @@
+from django.db import connection
+from django.db.models import F
+from django.db.models.signals import pre_save
+from django.dispatch import receiver
 from django.http import HttpResponseRedirect
 from django.shortcuts import render, get_object_or_404
 from django.contrib.auth.decorators import user_passes_test
 from django.urls import reverse, reverse_lazy
 
 from adminapp.forms import ShopUserAdminEditForm, ProductCategoryEditForm, ProductEditForm
-from authapp.forms import ShopUserRegisterForm
 from authapp.models import ShopUser
 from mainapp.models import ProductCategory, Product
 
 from django.views.generic.list import ListView
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.contrib.auth.mixins import LoginRequiredMixin
+
+
+def db_profile_by_type(prefix, type, queries):
+    update_queries = list(filter(lambda i: type in i['sql'], queries))
+    print(f'db_profile {type} for {prefix}: ')
+    [print(query['sql']) for query in update_queries]
+
+
+@receiver(pre_save, sender=ProductCategory)
+def product_is_active_update_productcategory_save(sender, instance, **kwargs):
+    if instance.pk:
+        if instance.is_active:
+            instance.product_set.update(is_active=True)
+        else:
+            instance.product_set.update(is_active=False)
+
+        db_profile_by_type(sender, 'UPDATE', connection.queries)
 
 
 # @user_passes_test(lambda u: u.is_superuser)
@@ -67,7 +87,7 @@ class UserCreateView(LoginRequiredMixin, CreateView):
 
     def get_context_data(self, **kwargs):
         context = super(UserCreateView, self).get_context_data(**kwargs)
-        context['title'] = 'пользователи/создать'
+        context['title'] = 'Админка/создать'
 
         return context
 
@@ -94,17 +114,11 @@ class UserCreateView(LoginRequiredMixin, CreateView):
 #     return render(request, 'adminapp/user_update.html', context)
 
 
-class UserUpdateView(LoginRequiredMixin, UpdateView):
+class UserUpdateView(UpdateView):
     model = ShopUser
     template_name = 'adminapp/user_update.html'
     success_url = reverse_lazy('admin_stuff:users')
-    fields = '__all__'
-
-    def get_context_data(self, **kwargs):
-        context = super(UserUpdateView, self).get_context_data(**kwargs)
-        context['title'] = 'пользователи/редактировать'
-
-        return context
+    form_class = ShopUserAdminEditForm
 
 
 # @user_passes_test(lambda u: u.is_superuser)
@@ -125,7 +139,7 @@ class UserUpdateView(LoginRequiredMixin, UpdateView):
 #
 #     return render(request, 'adminapp/user_delete.html', context)
 
-class UserDeleteView(LoginRequiredMixin, DeleteView):
+class UserDeleteView(DeleteView):
     model = ShopUser
     template_name = 'adminapp/user_delete.html'
     success_url = reverse_lazy('admin_stuff:users')
@@ -172,26 +186,46 @@ def category_create(request):
     return render(request, 'adminapp/category_update.html', context)
 
 
-@user_passes_test(lambda u: u.is_superuser)
-def category_update(request, pk):
-    title = 'категории/редактировать'
+# @user_passes_test(lambda u: u.is_superuser)
+# def category_update(request, pk):
+#     title = 'категории/редактировать'
+#
+#     edit_category = get_object_or_404(ProductCategory, pk=pk)
+#
+#     if request.method == 'POST':
+#         edit_form = ProductCategoryEditForm(request.POST, request.FILES, instance=edit_category)
+#         if edit_form.is_valid():
+#             edit_form.save()
+#             return HttpResponseRedirect(reverse('admin_stuff:category_update', args=[edit_category.pk]))
+#     else:
+#         edit_form = ProductCategoryEditForm(instance=edit_category)
+#
+#     context = {
+#         'title': title,
+#         'update_form': edit_form
+#     }
+#
+#     return render(request, 'adminapp/category_update.html', context)
 
-    edit_category = get_object_or_404(ProductCategory, pk=pk)
+class ProductCategoryUpdateView(UpdateView):
+    model = ProductCategory
+    template_name = 'adminapp/category_update.html'
+    success_url = reverse_lazy('admin_stuff:categories')
+    form_class = ProductCategoryEditForm
 
-    if request.method == 'POST':
-        edit_form = ProductCategoryEditForm(request.POST, request.FILES, instance=edit_category)
-        if edit_form.is_valid():
-            edit_form.save()
-            return HttpResponseRedirect(reverse('admin_stuff:category_update', args=[edit_category.pk]))
-    else:
-        edit_form = ProductCategoryEditForm(instance=edit_category)
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context['title'] = 'категории/редактирование'
+        return context
 
-    context = {
-        'title': title,
-        'update_form': edit_form
-    }
+    def form_valid(self, form):
+        if 'discount' in form.cleaned_data:
+            discount = form.cleaned_data['discount']
+            if discount:
+                self.object.product_set.update(price=F('price') * (1 - discount / 100))
+                db_profile_by_type(self.__class__, 'UPDATE', connection.queries)
 
-    return render(request, 'adminapp/category_update.html', context)
+        return super().form_valid(form)
 
 
 @user_passes_test(lambda u: u.is_superuser)

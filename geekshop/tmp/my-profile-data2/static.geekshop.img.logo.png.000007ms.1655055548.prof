@@ -1,0 +1,1495 @@
+events: Ticks
+summary: 8
+fl=<frozen importlib._bootstrap>
+fn=parent
+404 0
+cfn=<method 'rpartition' of 'str' objects>
+calls=3 0
+404 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\abc.py
+fn=__instancecheck__
+117 0
+cfn=<built-in method _abc._abc_instancecheck>
+calls=1 0
+117 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=_get_bothseps
+34 0
+cfn=<built-in method builtins.isinstance>
+calls=3 0
+34 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=normcase
+44 0
+cfn=<method 'replace' of 'str' objects>
+calls=4 0
+44 0
+cfn=<built-in method nt.fspath>
+calls=4 0
+44 0
+cfn=<method 'lower' of 'str' objects>
+calls=4 0
+44 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+44 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=isabs
+61 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+61 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=_get_bothseps
+calls=1 34
+61 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+61 0
+cfn=<built-in method nt.fspath>
+calls=1 0
+61 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=splitdrive
+calls=1 124
+61 0
+cfn=<built-in method builtins.len>
+calls=1 0
+61 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+61 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=join
+77 0
+cfn=<built-in method nt.fspath>
+calls=2 0
+77 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=splitdrive
+calls=4 124
+77 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+77 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=splitdrive
+124 0
+cfn=<method 'replace' of 'str' objects>
+calls=11 0
+124 0
+cfn=<built-in method nt.fspath>
+calls=11 0
+124 0
+cfn=<built-in method builtins.len>
+calls=11 0
+124 0
+cfn=<built-in method builtins.isinstance>
+calls=11 0
+124 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=split
+180 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=_get_bothseps
+calls=2 34
+180 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=2 0
+180 0
+cfn=<built-in method nt.fspath>
+calls=2 0
+180 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=splitdrive
+calls=2 124
+180 0
+cfn=<built-in method builtins.len>
+calls=2 0
+180 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=basename
+214 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=split
+calls=1 180
+214 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=normpath
+463 0
+cfn=<method 'startswith' of 'str' objects>
+calls=8 0
+463 0
+cfn=<method 'replace' of 'str' objects>
+calls=4 0
+463 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=4 0
+463 0
+cfn=<built-in method nt.fspath>
+calls=4 0
+463 0
+cfn=<method 'join' of 'str' objects>
+calls=4 0
+463 0
+cfn=<method 'split' of 'str' objects>
+calls=4 0
+463 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=splitdrive
+calls=4 124
+463 0
+cfn=<built-in method builtins.len>
+calls=44 0
+463 0
+cfn=<built-in method builtins.isinstance>
+calls=4 0
+463 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+fn=abspath
+537 0
+cfn=<built-in method nt._getfullpathname>
+calls=4 0
+537 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=normpath
+calls=4 463
+537 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+fn=get
+816 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+cfn=__getitem__
+calls=1 324
+816 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+fn=__contains__
+823 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+cfn=__getitem__
+calls=2 324
+823 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+fn=items
+835 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+cfn=__init__
+calls=1 857
+835 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+fn=__init__
+857 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+fn=__len__
+860 0
+cfn=<built-in method builtins.len>
+calls=1 0
+860 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+fn=__iter__
+904 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+cfn=__iter__
+calls=1 335
+904 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+cfn=<genexpr>
+calls=5 336
+904 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+cfn=__getitem__
+calls=4 324
+904 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\genericpath.py
+fn=exists
+16 0
+cfn=<built-in method nt.stat>
+calls=1 0
+16 6
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\genericpath.py
+fn=getsize
+48 0
+cfn=<built-in method nt.stat>
+calls=1 0
+48 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\genericpath.py
+fn=_splitext
+121 0
+cfn=<method 'rfind' of 'str' objects>
+calls=2 0
+121 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\threading.py
+fn=current_thread
+1423 0
+cfn=<built-in method _thread.get_ident>
+calls=3 0
+1423 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py
+fn=current_task
+35 0
+cfn=<built-in method _asyncio.get_running_loop>
+calls=3 0
+35 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\posixpath.py
+fn=splitext
+117 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\genericpath.py
+cfn=_splitext
+calls=1 121
+117 0
+cfn=<built-in method nt.fspath>
+calls=1 0
+117 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+117 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\posixpath.py
+fn=normpath
+337 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+337 0
+cfn=<built-in method nt.fspath>
+calls=2 0
+337 0
+cfn=<method 'join' of 'str' objects>
+calls=2 0
+337 0
+cfn=<method 'split' of 'str' objects>
+calls=2 0
+337 0
+cfn=<method 'append' of 'list' objects>
+calls=2 0
+337 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+337 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\sync.py
+fn=get_current_task
+462 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\asyncio\tasks.py
+cfn=current_task
+calls=3 35
+462 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+fn=_get_context_id
+44 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\sync.py
+cfn=get_current_task
+calls=3 462
+44 0
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=3 404
+44 0
+cfn=<built-in method sys.getrecursionlimit>
+calls=1 0
+44 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\threading.py
+cfn=current_thread
+calls=3 1423
+44 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+fn=_get_storage
+80 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+cfn=_get_context_id
+calls=3 44
+80 0
+cfn=<built-in method builtins.hasattr>
+calls=3 0
+80 0
+cfn=<built-in method builtins.getattr>
+calls=3 0
+80 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+fn=__getattr__
+99 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+cfn=_get_storage
+calls=2 80
+99 0
+cfn=<method '__exit__' of '_thread.RLock' objects>
+calls=2 0
+99 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+fn=__setattr__
+107 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+cfn=_get_storage
+calls=1 80
+107 0
+cfn=<method '__exit__' of '_thread.RLock' objects>
+calls=1 0
+107 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=parse_parts
+56 0
+cfn=<method 'reverse' of 'list' objects>
+calls=1 0
+56 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=splitroot
+calls=1 147
+56 0
+cfn=<built-in method sys.intern>
+calls=11 0
+56 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+56 0
+cfn=<method 'split' of 'str' objects>
+calls=1 0
+56 0
+cfn=<method 'append' of 'list' objects>
+calls=12 0
+56 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=splitroot
+147 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+147 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=_parse_args
+567 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=parse_parts
+calls=1 56
+567 0
+cfn=<built-in method nt.fspath>
+calls=1 0
+567 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+567 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+567 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=_from_parts
+587 0
+cfn=<built-in method __new__ of type object at 0x00007FFAA0659920>
+calls=1 0
+587 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=_parse_args
+calls=1 567
+587 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=_format_parsed_parts
+606 0
+cfn=<method 'join' of 'str' objects>
+calls=1 0
+606 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=__str__
+619 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=_format_parsed_parts
+calls=1 606
+619 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=__fspath__
+629 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=__str__
+calls=4 619
+629 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=__new__
+955 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=_from_parts
+calls=1 587
+955 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=stat
+1090 0
+cfn=<built-in method nt.stat>
+calls=3 0
+1090 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=open
+1109 0
+cfn=<built-in method io.open>
+calls=1 0
+1109 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=exists
+1283 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=stat
+calls=1 1090
+1283 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+fn=is_dir
+1298 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=stat
+calls=1 1090
+1298 0
+cfn=<built-in method _stat.S_ISDIR>
+calls=1 0
+1298 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py
+fn=unquote
+644 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+644 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py
+fn=_splittype
+1033 0
+cfn=<method 'match' of 're.Pattern' objects>
+calls=1 0
+1033 0
+cfn=<method 'groups' of 're.Match' objects>
+calls=1 0
+1033 0
+cfn=<method 'lower' of 'str' objects>
+calls=1 0
+1033 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+fn=_make_id
+10 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+10 0
+cfn=<built-in method builtins.id>
+calls=1 0
+10 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+fn=<listcomp>
+176 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\db\__init__.py
+cfn=reset_queries
+calls=1 45
+176 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\db\__init__.py
+cfn=close_old_connections
+calls=1 55
+176 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+fn=send
+152 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+152 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+cfn=<listcomp>
+calls=1 176
+152 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_live_receivers
+calls=1 234
+152 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+fn=_clear_dead_receivers
+224 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+fn=_live_receivers
+234 0
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=1 0
+234 0
+cfn=<method 'append' of 'list' objects>
+calls=4 0
+234 0
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+234 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_make_id
+calls=1 10
+234 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+cfn=_clear_dead_receivers
+calls=1 224
+234 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+fn=__getitem__
+56 0
+cfn=<built-in method builtins.getattr>
+calls=2 0
+56 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+fn=__iter__
+72 0
+cfn=<built-in method builtins.iter>
+calls=2 0
+72 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+fn=<listcomp>
+76 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+cfn=__getitem__
+calls=2 56
+76 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+fn=all
+75 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+cfn=__iter__
+calls=2 72
+75 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+cfn=<listcomp>
+calls=2 76
+75 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\db\__init__.py
+fn=reset_queries
+45 0
+cfn=<method 'clear' of 'collections.deque' objects>
+calls=1 0
+45 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+cfn=all
+calls=1 75
+45 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\db\__init__.py
+fn=close_old_connections
+55 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\db\backends\base\base.py
+cfn=close_if_unusable_or_obsolete
+calls=1 537
+55 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\connection.py
+cfn=all
+calls=1 75
+55 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\urls\base.py
+fn=set_script_prefix
+100 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+cfn=__setattr__
+calls=1 107
+100 0
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+100 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\http\cookies.py
+fn=__init__
+481 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\request.py
+fn=_set_content_type_params
+98 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+98 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\cgi.py
+cfn=parse_header
+calls=1 230
+98 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=__init__
+33 0
+cfn=<method 'items' of 'dict' objects>
+calls=1 0
+33 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+33 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=_convert_to_charset
+44 0
+cfn=<method 'encode' of 'str' objects>
+calls=8 0
+44 0
+cfn=<built-in method builtins.isinstance>
+calls=32 0
+44 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=__setitem__
+76 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=_convert_to_charset
+calls=8 44
+76 0
+cfn=<method 'lower' of 'str' objects>
+calls=4 0
+76 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\cgi.py
+fn=_parseparam
+218 0
+cfn=<method 'strip' of 'str' objects>
+calls=1 0
+218 0
+cfn=<method 'find' of 'str' objects>
+calls=1 0
+218 0
+cfn=<built-in method builtins.len>
+calls=1 0
+218 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\cgi.py
+fn=parse_header
+230 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\cgi.py
+cfn=_parseparam
+calls=2 218
+230 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\email\utils.py
+fn=_format_timetuple_and_zone
+117 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\email\utils.py
+fn=formatdate
+126 0
+cfn=<built-in method fromtimestamp>
+calls=1 0
+126 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\email\utils.py
+cfn=format_datetime
+calls=1 155
+126 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\email\utils.py
+fn=format_datetime
+155 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\email\utils.py
+cfn=_format_timetuple_and_zone
+calls=1 117
+155 0
+cfn=<method 'timetuple' of 'datetime.datetime' objects>
+calls=1 0
+155 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\encoding.py
+fn=repercent_broken_unicode
+217 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+217 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\http.py
+fn=http_date
+90 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\email\utils.py
+cfn=formatdate
+calls=1 126
+90 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+fn=__getitem__
+324 0
+cfn=<method 'lower' of 'str' objects>
+calls=7 0
+324 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+fn=__len__
+327 0
+cfn=<built-in method builtins.len>
+calls=1 0
+327 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+fn=<genexpr>
+336 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+fn=__iter__
+335 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+335 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=__init__
+103 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__setitem__
+calls=1 76
+103 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+cfn=__contains__
+calls=2 823
+103 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\http\cookies.py
+cfn=__init__
+calls=1 481
+103 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__init__
+calls=1 33
+103 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=reason_phrase
+133 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+133 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=items
+194 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+cfn=items
+calls=1 835
+194 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=__init__
+422 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__init__
+calls=1 103
+422 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=streaming_content
+calls=1 446
+422 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=streaming_content
+446 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=_set_streaming_content
+calls=1 475
+446 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=_set_streaming_content
+450 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+450 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+450 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=__init__
+470 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__init__
+calls=1 422
+470 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=_set_streaming_content
+475 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=set_headers
+calls=1 487
+475 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=_set_streaming_content
+calls=1 450
+475 0
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+475 0
+cfn=<built-in method builtins.iter>
+calls=1 0
+475 0
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+475 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+fn=set_headers
+487 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__setitem__
+calls=2 76
+487 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\genericpath.py
+cfn=getsize
+calls=1 48
+487 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=isabs
+calls=1 61
+487 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=basename
+calls=1 214
+487 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+cfn=get
+calls=1 816
+487 0
+cfn=<method 'format' of 'str' objects>
+calls=2 0
+487 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+487 0
+cfn=<method 'encode' of 'str' objects>
+calls=1 0
+487 0
+cfn=<built-in method builtins.getattr>
+calls=1 0
+487 0
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+487 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\mimetypes.py
+fn=guess_type
+103 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\posixpath.py
+cfn=splitext
+calls=1 117
+103 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py
+cfn=_splittype
+calls=1 1033
+103 0
+cfn=<built-in method nt.fspath>
+calls=1 0
+103 0
+cfn=<method 'lower' of 'str' objects>
+calls=2 0
+103 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\mimetypes.py
+fn=guess_type
+287 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\mimetypes.py
+cfn=guess_type
+calls=1 103
+287 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\_os.py
+fn=safe_join
+9 0
+cfn=<method 'startswith' of 'str' objects>
+calls=2 0
+9 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=abspath
+calls=4 537
+9 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=join
+calls=2 77
+9 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=normcase
+calls=4 44
+9 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+fn=find
+116 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+cfn=find_location
+calls=1 131
+116 6
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+116 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+fn=find_location
+131 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\_os.py
+cfn=safe_join
+calls=1 9
+131 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\genericpath.py
+cfn=exists
+calls=1 16
+131 6
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+fn=find
+288 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+cfn=get_finders
+calls=2 310
+288 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+cfn=find
+calls=1 116
+288 6
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+fn=get_finders
+310 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\nturl2path.py
+fn=url2pathname
+8 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+8 0
+cfn=<method 'join' of 'str' objects>
+calls=1 0
+8 0
+cfn=<method 'split' of 'str' objects>
+calls=1 0
+8 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\urllib\parse.py
+cfn=unquote
+calls=1 644
+8 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=__init__
+18 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=__init__
+65 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_script_name
+calls=1 162
+65 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+65 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_path_info
+calls=1 155
+65 0
+cfn=<method 'replace' of 'str' objects>
+calls=1 0
+65 0
+cfn=<method 'rstrip' of 'str' objects>
+calls=1 0
+65 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=__init__
+calls=1 18
+65 0
+cfn=<method 'upper' of 'str' objects>
+calls=1 0
+65 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\request.py
+cfn=_set_content_type_params
+calls=1 98
+65 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=<genexpr>
+139 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=__call__
+128 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+cfn=__iter__
+calls=5 904
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=<genexpr>
+calls=1 139
+128 0
+cfn=<method 'values' of 'dict' objects>
+calls=1 0
+128 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\util.py
+cfn=__init__
+calls=1 14
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=reason_phrase
+calls=1 133
+128 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\handlers.py
+cfn=start_response
+calls=1 225
+128 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py
+cfn=__len__
+calls=1 860
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=items
+calls=1 194
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\dispatch\dispatcher.py
+cfn=send
+calls=1 152
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_script_name
+calls=1 162
+128 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\urls\base.py
+cfn=set_script_prefix
+calls=1 100
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+cfn=get_response
+calls=1 52
+128 7
+cfn=<built-in method builtins.getattr>
+calls=1 0
+128 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=__init__
+calls=1 65
+128 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_path_info
+155 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\encoding.py
+cfn=repercent_broken_unicode
+calls=2 217
+155 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+155 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_bytes_from_wsgi
+calls=2 195
+155 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_script_name
+162 0
+cfn=<method 'decode' of 'bytes' objects>
+calls=2 0
+162 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_bytes_from_wsgi
+calls=6 195
+162 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+fn=get_bytes_from_wsgi
+195 0
+cfn=<method 'encode' of 'str' objects>
+calls=8 0
+195 0
+cfn=<method 'get' of 'dict' objects>
+calls=8 0
+195 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\handlers.py
+fn=start_response
+225 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\handlers.py
+cfn=_convert_string_type
+calls=9 254
+225 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\headers.py
+cfn=__init__
+calls=1 31
+225 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\util.py
+cfn=is_hop_by_hop
+calls=4 170
+225 0
+cfn=<method 'isdigit' of 'str' objects>
+calls=1 0
+225 0
+cfn=<built-in method builtins.len>
+calls=1 0
+225 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\handlers.py
+fn=_convert_string_type
+254 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\util.py
+fn=__init__
+14 0
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+14 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\util.py
+fn=is_hop_by_hop
+170 0
+cfn=<method '__contains__' of 'set' objects>
+calls=4 0
+170 0
+cfn=<method 'lower' of 'str' objects>
+calls=4 0
+170 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\headers.py
+fn=__init__
+31 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\headers.py
+cfn=_convert_string_type
+calls=8 41
+31 0
+
+fl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\wsgiref\headers.py
+fn=_convert_string_type
+41 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\views\static.py
+fn=was_modified_since
+114 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\views\static.py
+fn=serve
+18 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__setitem__
+calls=1 76
+18 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\http.py
+cfn=http_date
+calls=1 90
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=is_dir
+calls=1 1298
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=open
+calls=1 1109
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=__str__
+calls=1 619
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=stat
+calls=1 1090
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=exists
+calls=1 1283
+18 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\views\static.py
+cfn=was_modified_since
+calls=1 114
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\mimetypes.py
+cfn=guess_type
+calls=1 287
+18 0
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=__new__
+calls=1 955
+18 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\_os.py
+cfn=safe_join
+calls=1 9
+18 0
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+18 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\posixpath.py
+cfn=normpath
+calls=1 337
+18 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\http\response.py
+cfn=__init__
+calls=1 470
+18 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\db\backends\base\base.py
+fn=close_if_unusable_or_obsolete
+537 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=_should_handle
+33 0
+cfn=<method 'startswith' of 'str' objects>
+calls=1 0
+33 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=file_path
+41 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\nturl2path.py
+cfn=url2pathname
+calls=1 8
+41 0
+cfn=<built-in method builtins.len>
+calls=1 0
+41 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=serve
+48 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\views.py
+cfn=serve
+calls=1 15
+48 7
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+cfn=file_path
+calls=1 41
+48 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=get_response
+52 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+cfn=serve
+calls=1 48
+52 7
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+fn=__call__
+78 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\handlers.py
+cfn=_should_handle
+calls=1 33
+78 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=__call__
+calls=1 128
+78 8
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\core\handlers\wsgi.py
+cfn=get_path_info
+calls=1 155
+78 0
+
+fl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\views.py
+fn=serve
+15 0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\ntpath.py
+cfn=split
+calls=1 180
+15 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\views\static.py
+cfn=serve
+calls=1 18
+15 1
+cfn=<method 'lstrip' of 'str' objects>
+calls=1 0
+15 0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\contrib\staticfiles\finders.py
+cfn=find
+calls=1 288
+15 6
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\posixpath.py
+cfn=normpath
+calls=1 337
+15 0
+
+fn=<built-in method __new__ of type object at 0x00007FFAA0659920>
+0  0
+
+fn=<built-in method _abc._abc_instancecheck>
+0  0
+
+fn=<method 'clear' of 'collections.deque' objects>
+0  0
+
+fn=<method 'match' of 're.Pattern' objects>
+0  0
+
+fn=<method 'groups' of 're.Match' objects>
+0  0
+
+fn=<built-in method _stat.S_ISDIR>
+0  0
+
+fn=<built-in method fromtimestamp>
+0  0
+
+fn=<method 'timetuple' of 'datetime.datetime' objects>
+0  0
+
+fn=<built-in method nt.stat>
+0  6
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=__fspath__
+calls=3 629
+0 0
+
+fn=<built-in method nt._getfullpathname>
+0  0
+
+fn=<built-in method nt.fspath>
+0  0
+
+fn=<method '__exit__' of '_thread.lock' objects>
+0  0
+
+fn=<method '__exit__' of '_thread.RLock' objects>
+0  0
+
+fn=<built-in method _thread.get_ident>
+0  0
+
+fn=<built-in method io.open>
+0  0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\pathlib.py
+cfn=__fspath__
+calls=1 629
+0 0
+
+fn=<method 'decode' of 'bytes' objects>
+0  0
+
+fn=<method 'get' of 'dict' objects>
+0  0
+
+fn=<method 'items' of 'dict' objects>
+0  0
+
+fn=<method 'values' of 'dict' objects>
+0  0
+
+fn=<method 'append' of 'list' objects>
+0  0
+
+fn=<method 'reverse' of 'list' objects>
+0  0
+
+fn=<method '__contains__' of 'set' objects>
+0  0
+
+fn=<method 'encode' of 'str' objects>
+0  0
+
+fn=<method 'replace' of 'str' objects>
+0  0
+
+fn=<method 'split' of 'str' objects>
+0  0
+
+fn=<method 'join' of 'str' objects>
+0  0
+
+fn=<method 'find' of 'str' objects>
+0  0
+
+fn=<method 'lower' of 'str' objects>
+0  0
+
+fn=<method 'lstrip' of 'str' objects>
+0  0
+
+fn=<method 'rfind' of 'str' objects>
+0  0
+
+fn=<method 'rstrip' of 'str' objects>
+0  0
+
+fn=<method 'rpartition' of 'str' objects>
+0  0
+
+fn=<method 'strip' of 'str' objects>
+0  0
+
+fn=<method 'upper' of 'str' objects>
+0  0
+
+fn=<method 'startswith' of 'str' objects>
+0  0
+
+fn=<method 'endswith' of 'str' objects>
+0  0
+
+fn=<method 'isdigit' of 'str' objects>
+0  0
+
+fn=<method 'format' of 'str' objects>
+0  0
+
+fn=<built-in method builtins.getattr>
+0  0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\asgiref\local.py
+cfn=__getattr__
+calls=2 99
+0 0
+
+fn=<built-in method builtins.hasattr>
+0  0
+
+fn=<built-in method builtins.id>
+0  0
+
+fn=<built-in method builtins.isinstance>
+0  0
+cfl=C:\Users\Анастасия\AppData\Local\Programs\Python\Python310\lib\abc.py
+cfn=__instancecheck__
+calls=1 117
+0 0
+
+fn=<built-in method builtins.iter>
+0  0
+
+fn=<built-in method builtins.len>
+0  0
+cfl=C:\Users\Анастасия\Desktop\GeekBrains\Basics_Django_Framework\env\lib\site-packages\django\utils\datastructures.py
+cfn=__len__
+calls=1 327
+0 0
+
+fn=<built-in method sys.getrecursionlimit>
+0  0
+
+fn=<built-in method sys.intern>
+0  0
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0  0
+
+fn=<built-in method _asyncio.get_running_loop>
+0  0
+
